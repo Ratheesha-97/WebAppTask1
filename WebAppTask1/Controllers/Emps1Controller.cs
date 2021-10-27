@@ -21,6 +21,11 @@ namespace WebAppTask1.Controllers
             return View(db.Emps.ToList());
         }
 
+        public ActionResult Index1()
+        {
+            return PartialView("OurPView", db.Emps.ToList());
+        }
+
         // GET: Emps1/Details/5
         public ActionResult Details(int? id)
         {
