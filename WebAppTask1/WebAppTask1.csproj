@@ -139,6 +139,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\Emps1Controller.cs" />
     <Compile Include="Controllers\EmpsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Data\WebAppTask1DbContext.cs" />
@@ -184,6 +185,11 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Emps1\Create.cshtml" />
+    <Content Include="Views\Emps1\Delete.cshtml" />
+    <Content Include="Views\Emps1\Details.cshtml" />
+    <Content Include="Views\Emps1\Edit.cshtml" />
+    <Content Include="Views\Emps1\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
